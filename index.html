@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domain name Listing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="header">Enter a domain name</h1>
+
+    <div class="domain-form" id="domainForm">
+        <input type="text" id="domainInput" class="domain-input" placeholder="Eg: domain.com" required>
+        <button class="add bg-light-blue" id="add" onclick="addElement()">+</button>
+        <button class="clear bg-light-blue" id="clear">clear</button>
+        <button class="reset bg-light-blue" id="reset">Reset</button>
+    </div>
+
+    <p class="msg-box" id="msgBox"></p>
+    <ul class="display-list col-1" id="displayList"></ul>
+    <button class="submit bg-light-blue" id="submit" onclick="submit()">Submit</button>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
